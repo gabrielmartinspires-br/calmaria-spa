@@ -9,5 +9,6 @@ header {
     padding: 2rem;
     nav {
         display: flex;
+        flex-direction: column;
     }
 }
