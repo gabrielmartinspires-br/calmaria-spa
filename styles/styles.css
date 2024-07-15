@@ -56,4 +56,10 @@ header #home .img-home {
 }
 header #home .img-home img {
   width: 100%;
+}
+header #home .btn-main {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: #e8f5c8;
+  background-color: #4e75ff;
 }/*# sourceMappingURL=styles.css.map */
