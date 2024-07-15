@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
 }
 header {
-  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
+  background: $gradiente-primario;
   padding: 2rem;
   nav {
     display: flex;
@@ -27,7 +27,7 @@ header {
     align-items: center;
     gap: 1.6rem;
     .linha {
-      border-top: 1px solid #000000;
+      border-top: 1px solid $cor-primaria;
       width: 80%;
     }
     ul {
@@ -38,9 +38,9 @@ header {
       }
       a {
         text-decoration: none;
-        color: rgba(12, 4, 33, 1);
+        color: $cor-primaria;
         font-weight: 500;
-        font-family: "Montserrat", sans-serif;
+        font-family: $ft-titulos
       }
     }
   }
