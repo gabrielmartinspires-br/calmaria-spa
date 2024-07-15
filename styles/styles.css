@@ -60,6 +60,7 @@ header #home .img-home img {
 header #home .btn-main {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   color: #e8f5c8;
   background-color: #4e75ff;
 }/*# sourceMappingURL=styles.css.map */
