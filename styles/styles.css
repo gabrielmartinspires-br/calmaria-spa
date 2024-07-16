@@ -86,7 +86,10 @@ header #home .img-home img {
   max-width: 500px;
 }
 #nosso-espaco .detalhes .espaco-texto .titulo {
-  @in;
+  font-family: "Krona One", sans-serif;
+  font-size: 1.8rem;
+  color: #4e75ff;
+  font-weight: 500;
 }
 #nosso-espaco .detalhes .espaco-texto .separador {
   width: 100%;
