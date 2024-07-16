@@ -43,9 +43,8 @@ header {
   
         h1 {
           font-size: 42px;
-          color: variaveis.$cor-primaria;
+          @include mixins.ff-fs-cl(variaveis.$cor-primaria, 42px, variaveis.$ft-titulos);
           margin-bottom: 2rem;
-          font-family: variaveis.$ft-titulos;
   
           span {
             color: variaveis.$cor-secundaria;
