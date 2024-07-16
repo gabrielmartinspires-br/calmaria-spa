@@ -4,7 +4,7 @@
 
 #nosso-espaco{
     @include mixins.margem-central(80%);
-    .detalhes{
+    .detalhes {
         width: 100%;
         display: inline-flex;
         align-items: center;
@@ -12,16 +12,15 @@
         gap: 2rem;
         padding: 2rem 0;
 
-        .imgs-espaco{
+        .imgs-espaco {
             max-width: 500px;
         }
 
-        .espaco-texto{
+        .espaco-texto {
             @extend .imgs-espaco;
 
-            .titulo {
-                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secundaria);
-                font-weight: 500;
+            .titulo{
+                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secudaria);
             }
 
             .separador{
