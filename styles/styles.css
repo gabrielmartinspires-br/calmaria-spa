@@ -89,6 +89,7 @@ header #home .img-home img {
   font-family: "Krona One", sans-serif;
   font-size: 1.8rem;
   color: #4e75ff;
+  font-weight: 500;
 }
 #nosso-espaco .detalhes .espaco-texto .separador {
   width: 100%;
