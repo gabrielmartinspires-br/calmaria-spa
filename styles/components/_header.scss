@@ -25,7 +25,7 @@ header {
   
         a {
           text-decoration: none;
-          color: $cor-primaria;
+          color: variaveis.$cor-primaria;
           font-weight: 500;
           font-family: variaveis.$ft-textos;
         }
