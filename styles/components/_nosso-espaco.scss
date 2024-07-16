@@ -1,4 +1,7 @@
+
+
 @use '../abstract/mixins';
+
 #nosso-espaco{
     @include mixins.margem-central(80%);
     .detalhes{
@@ -15,6 +18,9 @@
 
         .espaco-texto{
             @extend .imgs-espaco;
+            .titulo {
+                @include mixins.ff-fs-cl();
+            }
             .separador{
                 width: 100%;
             }
