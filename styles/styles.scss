@@ -1,6 +1,8 @@
 @use './abstract/root';
 @use './abstract/variaveis';
 
+@use './components/header';
+
 header {
   background: variaveis.$gradiente-primario;
   padding: 2rem;
