@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
 }
 header {
-  background: $gradiente-primario;
+  background: variaveis.$gradiente-primario;
   padding: 2rem;
   nav {
     display: flex;
@@ -15,7 +15,7 @@ header {
     gap: 1.6rem;
 
     .linha {
-      border-top: 1px solid $cor-primaria;
+      border-top: 1px solid variaveis.$cor-primaria;
       width: 80%;
     }
 
@@ -31,7 +31,7 @@ header {
         text-decoration: none;
         color: $cor-primaria;
         font-weight: 500;
-        font-family: $ft-textos;
+        font-family: variaveis.$ft-textos;
       }
     }
   }
@@ -49,12 +49,12 @@ header {
 
       h1 {
         font-size: 42px;
-        color: $cor-primaria;
+        color: variaveis.$cor-primaria;
         margin-bottom: 2rem;
-        font-family: $ft-titulos;
+        font-family: variaveis.$ft-titulos;
 
         span {
-          color: $cor-secundaria;
+          color: variaveis.$cor-secundaria;
         }
       }
     }
@@ -66,7 +66,7 @@ header {
       border: none;
       outline: none;
       border-radius: 66px;
-      background: $cor-secundaria;
+      background: variaveis.$cor-secundaria;
       font-size: 1.3rem;
     }
     /*.btn-main {
