@@ -12,6 +12,9 @@
         }
         .espaco-texto{
             @extend .imgs-espaco;
+            .separador{
+                width: 100%;
+            }
         }
     }
 }
