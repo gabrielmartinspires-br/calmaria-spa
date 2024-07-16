@@ -1,5 +1,4 @@
 @use '../abstract/mixins';
-
-#nosso-espaco {
+#nosso-espaco{
     @include mixins.margem-central(80%);
 }
