@@ -39,15 +39,6 @@ header #home {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*.btn-main {
-    font-size: 18px;
-    font-family: $ft-textos;
-    font-weight: 600;
-    padding: 10px 24px;
-    border-radius: 40px;
-    color: $cor-quaternaria;
-    background-color: $cor-secundaria;
-  }*/
 }
 header #home .textos-home {
   max-width: 464px;
