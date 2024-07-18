@@ -159,4 +159,10 @@ header #home .img-home img {
   font-size: 1.2rem;
   color: #0c0421;
   width: 513.5px;
+}
+#desconto .input-btn button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0c0421;
+  width: 276.5px;
 }/*# sourceMappingURL=styles.css.map */
