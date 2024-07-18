@@ -17,9 +17,12 @@
 
         .espaco-texto {
             @extend .imgs-espaco;
-            .titulo{
+            .titulo {
                 @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secundaria);
                 font-weight: 500;
+            }
+            .infos {
+                @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.2rem, variaveis.$cor-primaria);
             }
             .separador{
                 width: 100%;
