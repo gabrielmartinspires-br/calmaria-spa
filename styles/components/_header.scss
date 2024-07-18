@@ -6,28 +6,6 @@ header {
     padding: 2rem;
     nav {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.6rem;
-  
-      .linha {
-        border-top: 1px solid variaveis.$cor-primaria;
-        width: 80%;
-      }
-  
-      ul {
-        display: inline-flex;
-        gap: 2rem;
-  
-        li {
-          list-style-type: none;
-        }
-  
-        a {
-          text-decoration: none;
-          @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
-          font-weight: 500;
-        }
       }
     }
   
