@@ -160,10 +160,16 @@ header #home .img-home img {
   font-size: 1.2rem;
   color: #0c0421;
   width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
 }
 #desconto .input-btn button {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0c0421;
+  color: #ffffff;
   width: 276.5px;
+  background: #4e75ff;
+  border-radius: 0 65px 65px 0;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
