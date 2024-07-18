@@ -5,6 +5,8 @@
     @include mixins.margem-central(80%);
     .detalhes {
         width: 100%;
+        display: inline-flex;
+        align-items: center;
         }
     }
 }
