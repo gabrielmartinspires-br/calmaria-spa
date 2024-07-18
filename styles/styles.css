@@ -153,6 +153,7 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
   margin: 0 auto;
+  display: inline-flex;
 }
 #desconto .input-btn input {
   font-family: "Montserrat", sans-serif;
