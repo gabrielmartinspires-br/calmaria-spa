@@ -4,3 +4,7 @@
 
 }
 
+@mixin ff-fs-cl($f-family, $f-size, $f-color){
+    font-family: $f-family;
+    
+}
