@@ -153,4 +153,10 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
   margin: 0 auto;
+}
+#desconto .input-btn input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0c0421;
+  width: 513.5px;
 }/*# sourceMappingURL=styles.css.map */
