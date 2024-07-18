@@ -4,6 +4,7 @@
 #servico{
     background: variaveis.$gradiente-primario;
     .cards{
-        @include mixins.margem-central(80%)
+        @include mixins.margem-central(80%);
+        display: flex;
     }
 }
