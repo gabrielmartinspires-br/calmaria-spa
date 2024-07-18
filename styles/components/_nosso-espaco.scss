@@ -15,7 +15,17 @@
             max-width: 500px;
         }
 
-        
+        .espaco-texto {
+            @extend .imgs-espaco;
+
+            .titulo{
+                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secudaria);
+                font-weight: 500;
+            }
+
+            .separador{
+                width: 100%;
+            }
         }
     }
 }
