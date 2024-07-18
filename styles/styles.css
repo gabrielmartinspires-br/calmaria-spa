@@ -153,4 +153,7 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
   margin: 0 auto;
+}
+#desconto .btn-teste {
+  width: 300px;
 }/*# sourceMappingURL=styles.css.map */
