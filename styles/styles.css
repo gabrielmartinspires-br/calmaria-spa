@@ -98,4 +98,7 @@ header #home .img-home img {
 }
 #nosso-espaco .detalhes .espaco-texto .separador {
   width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=styles.css.map */
