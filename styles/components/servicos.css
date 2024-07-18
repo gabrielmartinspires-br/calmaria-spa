@@ -1,8 +1,16 @@
 #servico {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
+  padding: 5rem 0;
 }
 #servico .cards {
   margin: 0 auto;
   width: 80%;
   display: flex;
+  gap: 1.5rem;
+}
+#servico .cards .card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 1px solid #ffffff;
 }/*# sourceMappingURL=servicos.css.map */
