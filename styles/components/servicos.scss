@@ -3,8 +3,16 @@
 
 #servico{
     background: variaveis.$gradiente-primario;
+    padding: 5rem 0;
     .cards{
         @include mixins.margem-central(80%);
         display: flex;
+        gap: 1.5rem;
+        .card{
+            background: variaveis.$gradiente-secundario;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            border: 1px solid #ffffff;
+        }
     }
 }
