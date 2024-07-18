@@ -18,7 +18,7 @@
         .espaco-texto {
             @extend .imgs-espaco;
             .titulo {
-                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secundaria);
+                @include mixins.ff-fs-cl();
                 font-weight: 500;
             }
             .infos {
