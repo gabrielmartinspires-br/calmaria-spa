@@ -19,7 +19,7 @@
             @extend .imgs-espaco;
 
             .titulo{
-                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secudaria);
+                @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.8rem, variaveis.$cor-secundaria);
                 font-weight: 500;
             }
 
