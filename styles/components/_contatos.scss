@@ -13,6 +13,10 @@
         flex-wrap: wrap;
         gap: 1.5rem;
         justify-content: space-around;
+        img{
+            width: 100%;
+            &:nth-child(n+2)
+        }
     }
     .contatos-form{
         max-width: 50%;
