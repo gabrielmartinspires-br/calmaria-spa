@@ -226,4 +226,7 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .form-group label {
   font-weight: 700;
+}
+#contatos .contatos-form .inputs .form-group input {
+  border-radius: 25px;
 }/*# sourceMappingURL=styles.css.map */
