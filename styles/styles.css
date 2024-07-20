@@ -219,6 +219,7 @@ header #home .img-home img {
   align-self: stretch;
 }
 #contatos .contatos-form .inputs .form-group {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
