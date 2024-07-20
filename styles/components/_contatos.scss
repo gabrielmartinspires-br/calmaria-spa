@@ -59,6 +59,7 @@
             }
             .btn{
                 @extend input;
+                background: variaveis.$cor-default;
             }
         }
         
