@@ -8,7 +8,9 @@
     gap: 2rem;
     .contatos-img{
         max-width: 50%;
-        display: flex;flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .contatos-form{
         max-width: 50%;
