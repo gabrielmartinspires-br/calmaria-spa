@@ -184,6 +184,7 @@ header #home .img-home img {
 #contatos .contatos-img {
   max-width: 50%;
   display: flex;
+  flex-direction: row;
 }
 #contatos .contatos-form {
   max-width: 50%;
