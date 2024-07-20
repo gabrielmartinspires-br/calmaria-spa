@@ -64,7 +64,7 @@
                 color: #ffffff;
                 font-size: 1rem;
                 width: 100%;
-                &:hover{
+                transition: .3s;
                     background: variaveis.$cor-secundaria;
                 }
             }
