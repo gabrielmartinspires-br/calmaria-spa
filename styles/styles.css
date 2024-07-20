@@ -218,6 +218,11 @@ header #home .img-home img {
   gap: 1.5rem;
   align-self: stretch;
 }
+#contatos .contatos-form .inputs input, #contatos .contatos-form .inputs .btn, #contatos .contatos-form .inputs .form-group textarea {
+  border-radius: 25px;
+  padding: 1rem;
+  border: none;
+}
 #contatos .contatos-form .inputs .form-group {
   width: 100%;
   display: flex;
@@ -226,9 +231,4 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .form-group label {
   font-weight: 700;
-}
-#contatos .contatos-form .inputs .form-group input, #contatos .contatos-form .inputs .form-group textarea {
-  border-radius: 25px;
-  padding: 1rem;
-  border: none;
 }/*# sourceMappingURL=styles.css.map */
