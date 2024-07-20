@@ -227,7 +227,7 @@ header #home .img-home img {
 #contatos .contatos-form .inputs .form-group label {
   font-weight: 700;
 }
-#contatos .contatos-form .inputs .form-group input {
+#contatos .contatos-form .inputs .form-group input, #contatos .contatos-form .inputs .form-group textarea {
   border-radius: 25px;
   padding: 1rem;
   border: none;
