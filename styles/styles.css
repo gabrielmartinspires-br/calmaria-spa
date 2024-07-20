@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem;
 }
 header nav {
@@ -15,7 +15,7 @@ header nav {
   gap: 1.6rem;
 }
 header nav .linha {
-  border-top: 1px solid black;
+  border-top: 1px solid #0c0421;
   width: 80%;
 }
 header nav ul {
@@ -29,13 +29,8 @@ header nav ul a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #0C0421;
+  color: #0c0421;
   font-weight: 500;
-  transition: 0.3s;
-}
-header nav ul a:hover {
-  transform: scale(1.2);
-  font-weight: 700;
 }
 header #home {
   max-width: 1040px;
@@ -46,30 +41,27 @@ header #home {
   justify-content: space-between;
 }
 header #home .textos-home {
-  width: 464px;
+  max-width: 464px;
 }
 header #home .textos-home h1 {
   font-size: 42px;
-  color: #0C0421;
+  font-family: #0c0421;
+  font-size: 41px;
+  color: "Krona One", sans-serif;
   margin-bottom: 2rem;
-  font-family: "Krona One", sans-serif;
 }
 header #home .textos-home h1 span {
   color: #4e75ff;
 }
-header #home .textos-home .btn-main {
+header #home .btn-main {
   width: 280px;
   height: 66px;
   color: #fff;
   border: none;
   outline: none;
   border-radius: 66px;
-  background: #CAD4FA;
-  font-size: 1.3rem;
-  transition: 0.3s;
-}
-header #home .textos-home .btn-main:hover {
   background: #4e75ff;
+  font-size: 1.3rem;
 }
 header #home .img-home {
   max-width: 474px;
@@ -90,21 +82,21 @@ header #home .img-home img {
   gap: 2rem;
   padding: 2rem 0;
 }
-#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-texto {
   max-width: 500px;
 }
-#nosso-espaco .detalhes .espaco-textos .titulo {
+#nosso-espaco .detalhes .espaco-texto .titulo {
   font-family: "Krona One", sans-serif;
   font-size: 1.8rem;
   color: #4e75ff;
   font-weight: 500;
 }
-#nosso-espaco .detalhes .espaco-textos .infos {
+#nosso-espaco .detalhes .espaco-texto .infos {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0C0421;
+  color: #0c0421;
 }
-#nosso-espaco .detalhes .espaco-textos .separador {
+#nosso-espaco .detalhes .espaco-texto .separador {
   width: 100%;
 }
 #nosso-espaco .detalhes:nth-child(2) {
@@ -112,7 +104,7 @@ header #home .img-home img {
 }
 
 #servico {
-  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 5rem 0;
 }
 #servico .cards {
@@ -125,18 +117,18 @@ header #home .img-home img {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
   padding: 1rem 1.5rem;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   border-radius: 3rem;
 }
 #servico .cards .card-titulo {
   font-family: "Krona One", sans-serif;
   font-size: 1.6rem;
-  color: #0C0421;
+  color: #0c0421;
 }
 #servico .cards .card-texto {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0C0421;
+  color: #0c0421;
 }
 
 #desconto {
@@ -148,12 +140,12 @@ header #home .img-home img {
 #desconto h4 {
   font-family: "Krona One", sans-serif;
   font-size: 1.6rem;
-  color: #0C0421;
+  color: #0c0421;
 }
 #desconto p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0C0421;
+  color: #0c0421;
 }
 #desconto .input-btn {
   width: 790px;
@@ -166,7 +158,7 @@ header #home .img-home img {
 #desconto .input-btn input {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0C0421;
+  color: #0c0421;
   width: 513.5px;
   border: none;
   outline: none;
@@ -175,7 +167,7 @@ header #home .img-home img {
 #desconto .input-btn button {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: white;
+  color: #ffffff;
   width: 276.5px;
   background: #4e75ff;
   border-radius: 0 65px 65px 0;
@@ -189,7 +181,7 @@ header #home .img-home img {
   justify-content: space-between;
   gap: 2rem;
 }
-#contatos .contatos-imgs {
+#contatos .contatos-img {
   max-width: 50%;
   display: flex;
   flex-direction: row;
@@ -197,15 +189,15 @@ header #home .img-home img {
   gap: 1.5rem;
   justify-content: space-around;
 }
-#contatos .contatos-imgs img {
+#contatos .contatos-img img {
   width: 100%;
 }
-#contatos .contatos-imgs img:nth-child(n+2) {
+#contatos .contatos-img img:nth-child(n+2) {
   width: 48%;
 }
 #contatos .contatos-form {
   max-width: 50%;
-  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem 3rem;
   border-radius: 2rem;
 }
@@ -217,7 +209,7 @@ header #home .img-home img {
 #contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #0C0421;
+  color: #0c0421;
 }
 #contatos .contatos-form .inputs {
   display: flex;
@@ -238,12 +230,12 @@ header #home .img-home img {
   gap: 0.5rem;
 }
 #contatos .contatos-form .inputs .form-group label {
-  font-weight: bold;
+  font-weight: 700;
 }
 #contatos .contatos-form .inputs .btn {
-  background: #CAD4FA;
+  background: #cad4fa;
   margin-top: 2rem;
-  color: white;
+  color: #ffffff;
   font-size: 1rem;
   width: 100%;
   transition: 0.3s;
@@ -253,11 +245,11 @@ header #home .img-home img {
 }
 
 footer {
-  background: #E8F5C8;
+  background: #e8f5c8;
   padding: 2rem;
   text-align: center;
   margin-top: 5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #0C0421;
+  color: #0c0421;
 }/*# sourceMappingURL=styles.css.map */
