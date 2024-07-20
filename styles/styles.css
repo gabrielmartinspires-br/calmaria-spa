@@ -192,6 +192,9 @@ header #home .img-home img {
 #contatos .contatos-img img {
   width: 100%;
 }
+#contatos .contatos-img img:nth-child(n+2) {
+  width: 48%;
+}
 #contatos .contatos-form {
   max-width: 50%;
 }/*# sourceMappingURL=styles.css.map */
