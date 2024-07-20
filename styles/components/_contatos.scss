@@ -6,4 +6,10 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    .contatos-img{
+        max-width: 50%;
+    }
+    .contatos-form{
+        max-width: 50%;
+    }
 }
