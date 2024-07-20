@@ -217,4 +217,7 @@ header #home .img-home img {
   align-items: flex-start;
   gap: 1.5rem;
   align-self: stretch;
+}
+#contatos .contatos-form .inputs .form-group {
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
