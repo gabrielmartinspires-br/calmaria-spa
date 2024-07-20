@@ -30,7 +30,7 @@
         button{
             @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.2rem, #ffffff);
             width: calc($largura-input * 0.35);
+            background: variaveis.$cor-secundaria;
             
-        }
     }
 }
