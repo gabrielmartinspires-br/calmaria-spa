@@ -64,6 +64,9 @@
                 color: #ffffff;
                 font-size: 1rem;
                 width: 100%;
+                &:hover{
+                    background: variaveis.$cor-secundaria;
+                }
             }
         }
         
