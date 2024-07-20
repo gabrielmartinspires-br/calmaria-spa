@@ -231,4 +231,7 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .form-group label {
   font-weight: 700;
+}
+#contatos .contatos-form .inputs .btn {
+  background: #cad4fa;
 }/*# sourceMappingURL=styles.css.map */
