@@ -26,7 +26,7 @@
         padding: 2rem 3rem;
         border-radius: 2rem;
         .titulo{
-            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9rem, variaveis.$cor-primaria)
+            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9rem, variaveis.$cor-secundaria)
         }
     }
 }
