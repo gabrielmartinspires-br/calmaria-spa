@@ -39,6 +39,8 @@
             align-self: stretch;
             .form-group{
                 display: flex;
+                flex-direction: column;
+                gap: .5rem;
             }
         }
         
