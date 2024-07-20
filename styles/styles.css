@@ -206,7 +206,7 @@ header #home .img-home img {
   font-size: 1.9rem;
   color: #4e75ff;
 }
-#contatos .contatos-form .infos {
+#contatos .contatos-form .infos, #contatos .contatos-form .inputs .form-group label {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   color: #0c0421;
@@ -223,4 +223,7 @@ header #home .img-home img {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+#contatos .contatos-form .inputs .form-group label {
+  font-weight: 700;
 }/*# sourceMappingURL=styles.css.map */
