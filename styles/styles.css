@@ -189,6 +189,9 @@ header #home .img-home img {
   gap: 1.5rem;
   justify-content: space-around;
 }
+#contatos .contatos-img img {
+  width: 100%;
+}
 #contatos .contatos-form {
   max-width: 50%;
 }/*# sourceMappingURL=styles.css.map */
