@@ -220,4 +220,6 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .form-group {
   display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */
