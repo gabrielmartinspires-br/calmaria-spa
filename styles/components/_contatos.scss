@@ -37,6 +37,11 @@
             align-items: flex-start;
             gap: 1.5rem;
             align-self: stretch;
+            input{
+                border-radius: 25px;
+                padding: 1rem;
+                border: none;
+            }
             .form-group{
                 width: 100%;
 
@@ -47,15 +52,13 @@
                     @extend .infos;
                     font-weight: 700;
                 }
-                input{
-                    border-radius: 25px;
-                    padding: 1rem;
-                    border: none;
-                }
+                
                 textarea{
-                    @extend input;
-                    
+                    @extend input;                    
                 }
+            }
+            .btn{
+                @extend input;
             }
         }
         
