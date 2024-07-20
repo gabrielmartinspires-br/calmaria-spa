@@ -4,4 +4,5 @@
 #contatos {
     @include mixins.margem-central(80%);
     display: flex;
+    justify-content: space-between;
 }
