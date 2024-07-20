@@ -186,7 +186,7 @@ header #home .img-home img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 #contatos .contatos-form {
   max-width: 50%;
