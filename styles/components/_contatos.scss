@@ -15,7 +15,9 @@
         justify-content: space-around;
         img{
             width: 100%;
-            &:nth-child(n+2)
+            &:nth-child(n + 2){
+                width: 48%;
+            }
         }
     }
     .contatos-form{
