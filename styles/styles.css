@@ -238,7 +238,8 @@ header #home .img-home img {
   color: #ffffff;
   font-size: 1rem;
   width: 100%;
+  transition: 0.3s;
 }
-tr #contatos .contatos-form .inputs .btn:hover {
+#contatos .contatos-form .inputs .btn:hover {
   background: #4e75ff;
 }/*# sourceMappingURL=styles.css.map */
